@@ -1,4 +1,4 @@
-# Local development entry point.
+# Remote package entry point.
 # Edit weatherslim-base.yaml for all config changes.
 
 packages:
@@ -6,6 +6,7 @@ packages:
 
 external_components:
   - source:
-      type: local
-      path: custom_components/
+      type: git
+      url: https://github.com/bertique/esphome-weatherman-dashboard
+      ref: waveshare_7in5h
     components: [ waveshare_7in5h ]
