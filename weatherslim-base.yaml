@@ -289,34 +289,34 @@ spi:
   mosi_pin: GPIO14
 
 
-# Include custom fonts
+# Include fonts
 font:
-  - file: 'fonts/GothamRnd-Book.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Book.ttf'
     id: font_small_book
     size: 20
-  - file: 'fonts/GothamRnd-Bold.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Bold.ttf'
     id: font_large_bold
     size: 108
     glyphs: [' ', '-', '°', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'C', 'F']
-  - file: 'fonts/GothamRnd-Bold.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Bold.ttf'
     id: font_title
     size: 54
     glyphs: ['W', 'E', 'A', 'T', 'H', 'R', 'L', 'I', 'N', ' ']
-  - file: 'fonts/GothamRnd-Bold.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Bold.ttf'
     id: font_medium_bold
     size: 30
     # glyphs: [' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'M', 'I', 'N']
-  - file: 'fonts/GothamRnd-Bold.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Bold.ttf'
     id: font_small_bold
     size: 18
     # glyphs: [' ', '-', '°', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'C', 'M', 'I', 'N']
-  - file: "gfonts://Google Sans"
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/GothamRnd-Book.ttf'
     id: font_tiny
     size: 16
 
   # Include Material Design Icons font
   # Thanks to https://community.home-assistant.io/t/display-materialdesign-icons-on-esphome-attached-to-screen/199790/16
-  - file: 'fonts/materialdesignicons-webfont.ttf'
+  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/materialdesignicons-webfont.ttf'
     id: font_mdi_large
     size: 96
     glyphs: &mdi-weather-glyphs
