@@ -351,7 +351,7 @@ font:
       - "\U000F059D" # mdi-weather-windy
       - "\U000F059E" # mdi-weather-windy-variant
       - "\U000F00ED" # mdi-calendar
-  - file: 'fonts/materialdesignicons-webfont.ttf'
+  - file: 'https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/fonts/materialdesignicons-webfont.ttf'
     id: font_mdi_medium
     size: 36
     glyphs: *mdi-weather-glyphs
