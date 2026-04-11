@@ -7,5 +7,5 @@ packages:
 external_components:
   - source:
       type: local
-      path: custom_components/
+      path: components/
     components: [ waveshare_7in5h ]
