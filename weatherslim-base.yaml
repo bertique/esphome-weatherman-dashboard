@@ -316,7 +316,7 @@ font:
 
   # Include Material Design Icons font
   # Thanks to https://community.home-assistant.io/t/display-materialdesign-icons-on-esphome-attached-to-screen/199790/16
-  - file: 'https://raw.githubusercontent.com/bertique/esphome-weatherman-dashboard/waveshare_7in5h/fonts/materialdesignicons-webfont.ttf'
+  - file: 'https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/fonts/materialdesignicons-webfont.ttf'
     id: font_mdi_large
     size: 96
     glyphs: &mdi-weather-glyphs
