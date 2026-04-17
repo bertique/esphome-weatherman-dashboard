@@ -150,8 +150,8 @@ sensor:
 
 # Wifi information
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+  ssid: "${wifi_ssid}"
+  password: "${wifi_password}"
 
 text_sensor:
   - platform: homeassistant
