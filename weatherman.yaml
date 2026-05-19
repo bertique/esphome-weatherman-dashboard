@@ -100,13 +100,7 @@ time:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
-
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
-    ssid: !secret weatherman_ap_ssid
-    password: !secret weatherman_ap_password
-
-
+captive_portal:
 # Include custom fonts
 font:
   - file: 'fonts/GothamRnd-Book.ttf'
