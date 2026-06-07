@@ -100,6 +100,9 @@ time:
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+  ap:
+    ssid: "DeviceFallbackHotspot"
+    password: "HotspotPassword"
 captive_portal:
 # Include custom fonts
 font:
