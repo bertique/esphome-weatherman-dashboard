@@ -3,10 +3,3 @@
 
 packages:
   base: !include weatherslim-base.yaml
-
-external_components:
-  - source:
-      type: git
-      url: https://github.com/bertique/esphome-weatherman-dashboard
-      ref: waveshare_7in5h
-    components: [ waveshare_7in5h ]

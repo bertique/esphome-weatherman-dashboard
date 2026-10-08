@@ -7,9 +7,3 @@ substitutions:
 
 packages:
   base: !include weatherslim-base.yaml
-
-external_components:
-  - source:
-      type: local
-      path: components/
-    components: [ waveshare_7in5h ]

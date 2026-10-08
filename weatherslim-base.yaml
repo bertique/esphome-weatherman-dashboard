@@ -358,14 +358,15 @@ font:
 
 # Now render everything on the ePaper screen.
 display:
-  - platform: waveshare_7in5h
+  - platform: epaper_spi
     id: eink_display
-    model: "7.5in-h"
+    model: "Waveshare-7.5in-H"
     cs_pin: GPIO15
     dc_pin: GPIO27
-    busy_pin: GPIO25
+    busy_pin:
+      number: GPIO25
+      inverted: true
     reset_pin: GPIO26
-    reset_duration: 5ms
     update_interval: never
     rotation: 270°
     lambda: |-
